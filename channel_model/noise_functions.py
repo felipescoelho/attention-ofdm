@@ -47,4 +47,11 @@ def awgn(input_signal:np.ndarray, snr:float):
     return noisy_signal
 
 
+if __name__ == '__main__':
+    # Test functions:
+    time_axis = np.linspace(0, 1, 15)
+    signal = np.exp(1j*2*np.pi*time_axis)
+
+    
+
 # EoF
